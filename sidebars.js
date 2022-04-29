@@ -22,6 +22,11 @@ const sidebars = {
     // },
     {
       type: "doc",
+      id: "index",
+      label: "index",
+    },
+    {
+      type: "doc",
       id: "Overview",
       label: "Overview",
     },
@@ -64,11 +69,6 @@ const sidebars = {
       type: "doc",
       id: "WhitePaper",
       label: "WhitePaper",
-    },
-    {
-      type: "doc",
-      id: "index",
-      label: "index",
     },
   ],
 

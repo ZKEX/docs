@@ -38,6 +38,6 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.theme-doc-sidebar-menu li:last-child {
+.theme-doc-sidebar-menu li:first-child {
   display: none;
 }
