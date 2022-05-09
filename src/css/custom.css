@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: rgba(160, 238, 9, 1);
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -18,7 +18,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: rgba(160, 238, 9, 1);
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -40,4 +40,122 @@
 
 .theme-doc-sidebar-menu li:first-child {
   display: none;
+}
+
+html {
+  background: #000000;
+  color: #fff;
+}
+.toggle_node_modules-\@docusaurus-theme-classic-lib-next-theme-ColorModeToggle-styles-module {
+  visibility: hidden;
+}
+.navbar__link:hover,
+.navbar__link {
+  display: flex;
+  background: rgba(216, 216, 216, 0.26);
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 24px;
+  border-radius: 14px;
+}
+.sidebar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-Desktop-styles-module {
+  background: #303030;
+  border-right: 1px solid #828282;
+}
+.menu__link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0;
+}
+.menu__link--active:not(.menu__link--sublist) {
+  position: relative;
+  background-color: rgba(0, 0, 0, 1);
+  border: 1px solid #828282;
+
+  /* border-right: 2px solid rgba(0, 0, 0, 1); */
+}
+.menu {
+  overflow-x: inherit;
+}
+.menu__link--active:not(.menu__link--sublist)::after {
+  position: absolute;
+  content: "";
+  right: -4px;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 1);
+}
+.pagination-nav__link {
+  border: 1px solid rgba(160, 238, 9, 1);
+}
+.docMainContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-styles-module {
+  border-top: 1px solid #828282;
+}
+h1 {
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.29);
+}
+nav.theme-doc-breadcrumbs {
+  display: none;
+}
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5 {
+  position: relative;
+}
+.markdown h2::after,
+.markdown h3::after,
+.markdown h4::after,
+.markdown h5::after {
+  position: absolute;
+  content: "";
+
+  background: #a0ee09;
+  border-radius: 50%;
+  left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.markdown h2::after {
+  width: 12px;
+  height: 12px;
+}
+.markdown h3::after {
+  width: 10px;
+  height: 10px;
+}
+.markdown h4::after {
+  width: 8px;
+  height: 8px;
+}
+.markdown h5::after {
+  width: 6px;
+  height: 6px;
+}
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown p {
+  padding-left: 24px;
+}
+.markdown ul {
+  overflow: hidden;
+  margin-left: 24px;
+  border-left: 6px solid rgba(160, 238, 9, 1);
+  border-radius: 8px;
+  background: #222222;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (min-width: 997px) {
+  .menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-Desktop-Content-styles-module {
+    padding-right: 0 !important;
+  }
+  .sidebar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-Desktop-styles-module {
+    height: 100vh !important;
+  }
 }

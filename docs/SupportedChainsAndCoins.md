@@ -29,13 +29,16 @@ We have successfully integrated the following blockchain networks, with more com
 
 Stablecoins are a cryptocurrency pegged to a target value such as the US Dollar at a 1:1 ratio. We support three kinds of stablecoins: USDC, BUSD, and zkexUSD, which are deposited to the L2 wallet to enable trading.
 
-###USDC
+### USDC
+
 USD Coin is a digital stablecoin that is pegged to the US dollar. Users can directly deposit USDC to ZKEX to trade.
 
-###BUSD
+### BUSD
+
 Binance USD is a digital stablecoin that is pegged to the US dollar. Users can directly deposit BUSD to ZKEX to trade.
 
-###zkexUSD
+### zkexUSD
+
 zkexUSD is a stablecoin minted from collaterized stablecoins and LP tokens. Users can deposit supported collateralized assets for use on ZKEX, and earn extra yield in the process.
 
 Supported collaterals:

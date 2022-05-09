@@ -33,17 +33,17 @@ const sidebars = {
     {
       type: "doc",
       id: "HowZKEXWorks",
-      label: "HowZKEXWorks",
+      label: "How ZKEX works",
     },
     {
       type: "doc",
       id: "SupportedChainsAndCoins",
-      label: "SupportedChainsAndCoins",
+      label: "Supported chains and coins",
     },
     {
       type: "doc",
       id: "L2Wallet",
-      label: "L2Wallet",
+      label: "L2 Wallet",
     },
     {
       type: "doc",
@@ -68,7 +68,7 @@ const sidebars = {
     {
       type: "doc",
       id: "WhitePaper",
-      label: "WhitePaper",
+      label: "White Paper",
     },
   ],
 

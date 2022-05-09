@@ -9,7 +9,7 @@ const config = {
   title: "ZKEX",
   tagline: "ZKEX",
   url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  baseUrl: "/userdocs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -26,15 +26,9 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // editUrl:
-          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          routeBasePath: "/userdocs/",
+          //   "",
+          routeBasePath: "/",
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   editUrl:
-        //     "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -45,20 +39,23 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "dark",
+      },
       navbar: {
-        title: "ZKEX",
+        // title: "ZKEX",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
         },
         items: [
-          {
-            href: "https://zkex.com",
-            label: "Home",
-            position: "left",
-            target: "_self",
-            className: "nav-link-btn",
-          },
+          // {
+          //   href: "https://zkex.com",
+          //   label: "Home",
+          //   position: "left",
+          //   target: "_self",
+          //   className: "nav-link-btn",
+          // },
           // {
           //   type: "doc",
           //   docId: "intro",
@@ -69,8 +66,8 @@ const config = {
 
           {
             // type: "menu",
-            to: "/userdocs/Overview",
-            label: "userdocs",
+            to: "/Overview",
+            label: " Help & Docs",
             position: "left",
             // docId: "userdocs",
           },
@@ -144,6 +141,17 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      algolia: {
+        apiKey: "6b1a18be88692c3e0324585690151e87",
+        indexName: "YOUR_INDEX_NAME",
+        // Optional: see doc section below
+        contextualSearch: true,
+        // Optional: see doc section below
+        appId: "YJNNA7Z7MU",
+        // Optional: Algolia search parameters
+        searchParameters: {},
+        //... other Algolia params
       },
     }),
 };
