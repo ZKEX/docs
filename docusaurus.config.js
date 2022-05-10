@@ -41,12 +41,14 @@ const config = {
     ({
       colorMode: {
         defaultMode: "dark",
+        disableSwitch: true,
       },
       navbar: {
-        // title: "ZKEX",
+        title: "",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
+          href: "https://zkex.com",
         },
         items: [
           // {

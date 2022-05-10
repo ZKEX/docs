@@ -46,9 +46,7 @@ html {
   background: #000000;
   color: #fff;
 }
-.toggle_node_modules-\@docusaurus-theme-classic-lib-next-theme-ColorModeToggle-styles-module {
-  visibility: hidden;
-}
+
 .navbar__link:hover,
 .navbar__link {
   display: flex;
@@ -59,9 +57,10 @@ html {
   line-height: 24px;
   border-radius: 14px;
 }
-.sidebar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-Desktop-styles-module {
+.menu.thin-scrollbar {
   background: #303030;
   border-right: 1px solid #828282;
+  padding-right: 0 !important;
 }
 .menu__link {
   padding-top: 10px;
@@ -145,7 +144,7 @@ nav.theme-doc-breadcrumbs {
 .markdown ul {
   overflow: hidden;
   margin-left: 24px;
-  border-left: 6px solid rgba(160, 238, 9, 1);
+  border-left: 4px solid rgba(160, 238, 9, 1);
   border-radius: 8px;
   background: #222222;
   padding-top: 10px;
@@ -158,4 +157,7 @@ nav.theme-doc-breadcrumbs {
   .sidebar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-Desktop-styles-module {
     height: 100vh !important;
   }
+}
+.DocSearch-Button-Keys {
+  display: none !important;
 }
