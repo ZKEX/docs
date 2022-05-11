@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# How ZKEX works
+# 💻︎ How ZKEX works
 
 ZKEX will feel very much like Binance or FTX, but will be decentralized, trust minimized, and non-custodial.
 

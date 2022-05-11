@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Supported chains and coins
+# 👩‍💻 Supported chains and coins
 
 ## Networks
 

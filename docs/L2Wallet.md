@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# L2 Wallet
+# 👛 L2 Wallet
 
 In order to trade on ZKEX, users need to deposit their funds from the original L1 chain (e.g. Ethererum, Solana etc.) to their wallet on L2. The original assets are held by ZKEX’s smart contract on the L1 chain, and equivalent funds released on L2.
 

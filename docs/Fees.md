@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Fees
+# 💰️ Fees
 
 Please note, all fees below are estimated, and subject to change.
 

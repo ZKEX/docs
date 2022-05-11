@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Trading
+# 💵 Trading
 
 ## Trading Types
 

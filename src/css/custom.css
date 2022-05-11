@@ -55,12 +55,13 @@ html {
   font-weight: 500;
   color: #ffffff;
   line-height: 24px;
-  border-radius: 14px;
+  border-radius: 32px;
 }
 .menu.thin-scrollbar {
   background: #303030;
   border-right: 1px solid #828282;
   padding-right: 0 !important;
+  height: 100vh;
 }
 .menu__link {
   padding-top: 10px;
@@ -86,7 +87,7 @@ html {
   height: 100%;
   background-color: rgba(0, 0, 0, 1);
 }
-.pagination-nav__link {
+.pagination-nav__link:hover {
   border: 1px solid rgba(160, 238, 9, 1);
 }
 .docMainContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-styles-module {
@@ -105,10 +106,7 @@ nav.theme-doc-breadcrumbs {
 .markdown h5 {
   position: relative;
 }
-.markdown h2::after,
-.markdown h3::after,
-.markdown h4::after,
-.markdown h5::after {
+.markdown h2::after {
   position: absolute;
   content: "";
 
@@ -122,22 +120,19 @@ nav.theme-doc-breadcrumbs {
   width: 12px;
   height: 12px;
 }
-.markdown h3::after {
-  width: 10px;
-  height: 10px;
-}
-.markdown h4::after {
-  width: 8px;
-  height: 8px;
-}
-.markdown h5::after {
-  width: 6px;
-  height: 6px;
+.markdown h3 {
+  display: inline-block;
+  background: #a0ee09;
+  background: #3d3d3d;
+  padding-left: 10px;
+  margin-left: 25px;
+  border-left: 2px solid rgba(160, 238, 9, 1);
+  font-size: 14px;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 18px;
 }
 .markdown h2,
-.markdown h3,
-.markdown h4,
-.markdown h5,
 .markdown p {
   padding-left: 24px;
 }
@@ -145,7 +140,7 @@ nav.theme-doc-breadcrumbs {
   overflow: hidden;
   margin-left: 24px;
   border-left: 4px solid rgba(160, 238, 9, 1);
-  border-radius: 8px;
+  border-radius: 4px;
   background: #222222;
   padding-top: 10px;
   padding-bottom: 10px;

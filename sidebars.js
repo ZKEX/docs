@@ -28,47 +28,47 @@ const sidebars = {
     {
       type: "doc",
       id: "Overview",
-      label: "Overview",
+      label: "📔 Overview",
     },
     {
       type: "doc",
       id: "HowZKEXWorks",
-      label: "How ZKEX works",
+      label: "💻︎ How ZKEX works",
     },
     {
       type: "doc",
       id: "SupportedChainsAndCoins",
-      label: "Supported chains and coins",
+      label: "👩‍💻 Supported chains and coins",
     },
     {
       type: "doc",
       id: "L2Wallet",
-      label: "L2 Wallet",
+      label: "👛 L2 Wallet",
     },
     {
       type: "doc",
       id: "Trading",
-      label: "Trading",
+      label: "💵 Trading",
     },
     {
       type: "doc",
       id: "Fees",
-      label: "Fees",
+      label: "💰️ Fees",
     },
     {
       type: "doc",
       id: "Security",
-      label: "Security",
+      label: "🔒 Security",
     },
     {
       type: "doc",
       id: "Tokenomics",
-      label: "Tokenomics",
+      label: "🪙 Tokenomics",
     },
     {
       type: "doc",
       id: "WhitePaper",
-      label: "White Paper",
+      label: "📄 White Paper",
     },
   ],
 

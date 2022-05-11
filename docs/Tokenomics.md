@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Tokenomics
+# 🪙 Tokenomics
 
 No information about a ZKEX token is available yet.
 
