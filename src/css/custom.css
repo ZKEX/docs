@@ -43,7 +43,9 @@
 }
 
 html {
-  background: #000000;
+  /* background: #171a1d; */
+  background: #171a1d;
+  /* background: #000000; */
   color: #fff;
 }
 
@@ -57,8 +59,18 @@ html {
   line-height: 24px;
   border-radius: 32px;
 }
+.navbar.navbar--fixed-top {
+  /* height: 90px; */
+}
+.navbar.navbar--fixed-top {
+  background: #1a1a1a;
+}
 .menu.thin-scrollbar {
-  background: #303030;
+  /* background: #171a1d; */
+
+  /* background: #171a1d; */
+
+  background: #272a2d;
   border-right: 1px solid #828282;
   padding-right: 0 !important;
   height: 100vh;
@@ -70,7 +82,8 @@ html {
 }
 .menu__link--active:not(.menu__link--sublist) {
   position: relative;
-  background-color: rgba(0, 0, 0, 1);
+  /* background-color: rgba(0, 0, 0, 1); */
+  background: #171a1d;
   border: 1px solid #828282;
 
   /* border-right: 2px solid rgba(0, 0, 0, 1); */
@@ -85,7 +98,9 @@ html {
   top: 0;
   width: 10px;
   height: 100%;
-  background-color: rgba(0, 0, 0, 1);
+  background: #171a1d;
+
+  /* background-color: rgba(0, 0, 0, 1); */
 }
 .pagination-nav__link:hover {
   border: 1px solid rgba(160, 238, 9, 1);
@@ -112,7 +127,7 @@ nav.theme-doc-breadcrumbs {
 
   background: #a0ee09;
   border-radius: 50%;
-  left: 6px;
+  left: 20px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -122,29 +137,92 @@ nav.theme-doc-breadcrumbs {
 }
 .markdown h3 {
   display: inline-block;
+  height: 20px;
   background: #a0ee09;
   background: #3d3d3d;
   padding-left: 10px;
-  margin-left: 25px;
+  margin-left: 45px;
+  /* padding-right: -10px; */
   border-left: 2px solid rgba(160, 238, 9, 1);
-  font-size: 14px;
+  /* font-size: 14px;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 18px; */
+  font-size: 16px;
   font-weight: 800;
   color: #ffffff;
   line-height: 18px;
+  box-sizing: border-box;
 }
 .markdown h2,
 .markdown p {
-  padding-left: 24px;
+  padding-left: 44px;
 }
 .markdown ul {
   overflow: hidden;
-  margin-left: 24px;
+  margin-left: 44px;
   border-left: 4px solid rgba(160, 238, 9, 1);
   border-radius: 4px;
-  background: #222222;
+  /* background: #222222; */
+
+  background: #25292e;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-right: 10px;
 }
+.pagination-nav {
+  padding-left: 84px;
+  padding-right: 50px;
+}
+.theme-doc-markdown.markdown {
+  padding-left: 39px;
+  padding-right: 50px;
+}
+.table-of-contents .table-of-contents__link--active {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 21px;
+}
+.table-of-contents li a {
+  position: relative;
+  margin-left: 10px;
+}
+.table-of-contents > li > a::after {
+  position: absolute;
+  content: "";
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background: #a0ee09;
+  border-radius: 50%;
+}
+.table-of-contents > li > ul a::after {
+  position: absolute;
+  content: "";
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 2px;
+  border-bottom: 1px solid #393b3d;
+}
+.table-of-contents > li > ul a::before {
+  position: absolute;
+  content: "";
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: calc(100% + 8px);
+  border-left: 1px solid #393b3d;
+}
+.table-of-contents > li > ul li:last-child a::before {
+  top: -4px;
+}
+
 @media (min-width: 997px) {
   .menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-Desktop-Content-styles-module {
     padding-right: 0 !important;
