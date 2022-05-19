@@ -105,12 +105,23 @@ html {
 .pagination-nav__link:hover {
   border: 1px solid rgba(160, 238, 9, 1);
 }
-.docMainContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-styles-module {
+/* .docMainContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-styles-module {
   border-top: 1px solid #828282;
-}
+} */
 h1 {
+  position: relative;
   padding-bottom: 25px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.29);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.29); */
+}
+h1::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 60px;
+  width: 100%;
+  width: calc(100% + 20px);
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.29);
 }
 nav.theme-doc-breadcrumbs {
   display: none;
@@ -127,7 +138,7 @@ nav.theme-doc-breadcrumbs {
 
   background: #a0ee09;
   border-radius: 50%;
-  left: 20px;
+  left: 38px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -141,7 +152,7 @@ nav.theme-doc-breadcrumbs {
   background: #a0ee09;
   background: #3d3d3d;
   padding-left: 10px;
-  margin-left: 45px;
+  margin-left: 63px;
   /* padding-right: -10px; */
   border-left: 2px solid rgba(160, 238, 9, 1);
   /* font-size: 14px;
@@ -156,11 +167,11 @@ nav.theme-doc-breadcrumbs {
 }
 .markdown h2,
 .markdown p {
-  padding-left: 44px;
+  padding-left: 62px;
 }
 .markdown ul {
   overflow: hidden;
-  margin-left: 44px;
+  margin-left: 62px;
   border-left: 4px solid rgba(160, 238, 9, 1);
   border-radius: 4px;
   /* background: #222222; */
@@ -175,7 +186,7 @@ nav.theme-doc-breadcrumbs {
   padding-right: 50px;
 }
 .theme-doc-markdown.markdown {
-  padding-left: 39px;
+  padding-left: 21px;
   padding-right: 50px;
 }
 .table-of-contents .table-of-contents__link--active {
@@ -222,7 +233,33 @@ nav.theme-doc-breadcrumbs {
 .table-of-contents > li > ul li:last-child a::before {
   top: -4px;
 }
-
+.DocSearch-Button-Keys {
+  display: none !important;
+}
+.navbar.navbar--fixed-top::after {
+  position: absolute;
+  bottom: 0;
+  left: 300px;
+  width: 100%;
+  height: 1px;
+  content: "";
+  background-color: rgba(130, 130, 130, 1);
+}
+.container .col.col--3 {
+  position: relative;
+}
+.container .col.col--3::after {
+  position: absolute;
+  left: 16px;
+  top: -16px;
+  height: calc(100% + 16px);
+  content: "";
+  /* width: 1px; */
+  border-left: 1px solid rgba(255, 255, 255, 0.29);
+}
+.table-of-contents__left-border {
+  border: none;
+}
 @media (min-width: 997px) {
   .menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-Desktop-Content-styles-module {
     padding-right: 0 !important;
@@ -231,6 +268,19 @@ nav.theme-doc-breadcrumbs {
     height: 100vh !important;
   }
 }
-.DocSearch-Button-Keys {
-  display: none !important;
+
+@media (max-width: 680px) {
+  .theme-doc-markdown.markdown {
+    padding: 0;
+  }
+
+  h1::after {
+    display: none;
+  }
+  .pagination-nav {
+    padding: 0;
+  }
+  .navbar.navbar--fixed-top::after {
+    display: none;
+  }
 }
