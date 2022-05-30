@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # 📄 User manual
 
----
-
 ## Step 1. Set up testnet & connect wallet
 
 Current we support four test chains: Rinkeby, Goerli, AVAX Testnet, and Polygon Testnet. You may connect to one or more chains.

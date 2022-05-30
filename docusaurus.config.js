@@ -9,7 +9,7 @@ const config = {
   title: "ZKEX",
   tagline: "ZKEX",
   url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/userdocs/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -27,7 +27,7 @@ const config = {
           // Please change this to your repo.
           // editUrl:
           //   "",
-          routeBasePath: "/",
+          routeBasePath: "/userdocs/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -68,7 +68,7 @@ const config = {
 
           {
             // type: "menu",
-            to: "/Concepts/Overview",
+            to: "/userdocs/Concepts/Overview",
             label: " Help & Docs",
             position: "left",
             // docId: "userdocs",
