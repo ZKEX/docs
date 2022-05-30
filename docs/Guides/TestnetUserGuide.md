@@ -10,8 +10,7 @@ Current we support four test chains: Rinkeby, Goerli, AVAX Testnet, and Polygon 
 
 a. In your Metamask, click your current network, and click "Add Network".
 
-$$
-(0)
+![img](../../static/img/guides/0.jpg)
 
 b. Fill in the following parameters and click "Save".
 
@@ -34,15 +33,16 @@ b. Fill in the following parameters and click "Save".
 - Rinkeby & Goerli Testnet
   - Goerli Testnet and Rinkeby Testnet (Ethereum Testnets) are set to default in the your networks.
 
-$$$$$$(1)
+![img](../../static/img/guides/1.jpg)
 
 c. In ZKEX, click "Connect Wallet" - "Activate Account".
-
-$$$$$$(2)
+![img](../../static/img/guides/2.jpg)
 
 d. Ready to place an order.
 
 ## Step 2. Claim testnet tokens
+
+To “Activate Account”, you need funds in Layer 2 wallet. No worries, we have prepared faucet for you.
 
 a. Click "Faucet".
 
@@ -52,11 +52,9 @@ c. Click "Get".
 
 d. You will see your balance on the bottom-right.
 
-$$$$$$(3)
-
-$$$$$$(4)
-
-$$$$$$(5)
+![img](../../static/img/guides/3.jpg)
+![img](../../static/img/guides/4.jpg)
+![img](../../static/img/guides/5.jpg)
 
 ## Step 3. Place a limit order
 
@@ -72,9 +70,8 @@ e. Sign in your wallet.
 
 f. Wait for your order to be fulfilled. See details in "open orders".
 
-$$$$$$(6)
-
-$$$$$$(7)
+![img](../../static/img/guides/6.jpg)
+![img](../../static/img/guides/7.jpg)
 
 ## Credit Cookie: Token Merge
 
@@ -88,7 +85,7 @@ To experience this magical trick, you should:
 - b. Choose a token.
 - c. Click "Get".
 - d. Switch a network and repeat step a to c.
-  $$$$$$(8)
+  ![img](../../static/img/guides/8.jpg)
 
 2. Deposit them separately from each chain to ZKEX.
 
@@ -96,9 +93,8 @@ To experience this magical trick, you should:
 - b. Click "Deposit".
 - c. Choose network, token, amount, and click "Approve".
 - d. Switch a network and repeat step a to c.
-  $$$$$$(9)
-  $$$$$$(10)
+  ![img](../../static/img/guides/9.jpg)
+  ![img](../../static/img/guides/10.jpg)
 
 3. You will see that there's no difference of USDC by chains on ZKEX, and the balance from each chain is summed up, displayed as "USDC".
-   $$$$$$(11)
-$$
+   ![img](../../static/img/guides/11.jpg)

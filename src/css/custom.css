@@ -166,12 +166,14 @@ nav.theme-doc-breadcrumbs {
   box-sizing: border-box;
 }
 .markdown h2,
-.markdown p {
+.markdown > p {
   padding-left: 62px;
+}
+.markdown > ul {
+  margin-left: 62px;
 }
 .markdown ul {
   overflow: hidden;
-  margin-left: 62px;
   border-left: 4px solid rgba(160, 238, 9, 1);
   border-radius: 4px;
   /* background: #222222; */
