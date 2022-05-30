@@ -16,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/userdocs/Overview"
+            to="/userdocs/Concepts/Overview"
           >
             Docusaurus Tutorial - 5min ⏱️
           </Link>
@@ -29,7 +29,7 @@ function HomepageHeader() {
 export default function Home(props): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   useEffect(() => {
-    props.history.replace("/userdocs/Overview");
+    props.history.replace("/userdocs/Concepts/Overview");
   }, []);
   return null;
 }

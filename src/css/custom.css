@@ -39,7 +39,7 @@
 }
 
 .theme-doc-sidebar-menu li:first-child {
-  display: none;
+  /* display: none; */
 }
 
 html {
