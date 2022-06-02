@@ -69,7 +69,7 @@ const config = {
           {
             // type: "menu",
             to: "/userdocs/Concepts/Overview",
-            label: " Help & Docs",
+            label: "Docs",
             position: "left",
             // docId: "userdocs",
           },

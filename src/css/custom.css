@@ -52,12 +52,11 @@ html {
 .navbar__link:hover,
 .navbar__link {
   display: flex;
-  background: rgba(216, 216, 216, 0.26);
-  font-size: 16px;
-  font-weight: 500;
   color: #ffffff;
-  line-height: 24px;
-  border-radius: 32px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #a0ee09;
+  line-height: 27px;
 }
 .navbar.navbar--fixed-top {
   /* height: 90px; */
@@ -267,6 +266,17 @@ nav.theme-doc-breadcrumbs {
 .table-of-contents__left-border {
   border: none;
 }
+
+.table-of-contents .table-of-contents__link--active {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 24px;
+}
+.DocSearch-Button {
+  width: 260px;
+}
+
 @media (min-width: 997px) {
   .menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-Desktop-Content-styles-module {
     padding-right: 0 !important;
