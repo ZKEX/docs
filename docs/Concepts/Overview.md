@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## What is ZKEX?
 
-** ZKEX is a decentralized L2 multi-chain order book exchange (DEX), build on three ZK-rollups: zkLink, Starkware, and zkSync.**
+**ZKEX is a decentralized L2 multi-chain order book exchange (DEX), build on three ZK-rollups: zkLink, Starkware, and zkSync.**
 
 **Users will be able to trade assets from multiple chains with a similar experience as on Binance or Coinbase, but instead, ZKEX will be decentralized, trust minimized, and non-custodial, with transactions secured with zero-knowledge proofs.**
 

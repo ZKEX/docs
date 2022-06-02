@@ -288,6 +288,12 @@ nav.theme-doc-breadcrumbs {
 .DocSearch-Button {
   width: 260px;
 }
+.navbar__item {
+  padding-left: 4px !important;
+}
+.navbar__brand {
+  margin-right: 0;
+}
 
 @media (min-width: 997px) {
   .menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-Desktop-Content-styles-module {
