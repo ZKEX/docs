@@ -235,6 +235,11 @@ nav.theme-doc-breadcrumbs {
 .table-of-contents > li > ul li:last-child a::before {
   top: -4px;
 }
+.table-of-contents > li > ul li:last-child:first-child a::before {
+  height: calc((50% + 4px));
+  top: 4px;
+}
+
 .DocSearch-Button-Keys {
   display: none !important;
 }
