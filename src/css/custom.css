@@ -285,9 +285,7 @@ nav.theme-doc-breadcrumbs {
   color: #ffffff;
   line-height: 24px;
 }
-.DocSearch-Button {
-  width: 260px;
-}
+
 .navbar__item {
   padding-left: 4px !important;
   padding-top: 10px !important;
@@ -302,6 +300,9 @@ nav.theme-doc-breadcrumbs {
   }
   .sidebar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-Desktop-styles-module {
     height: 100vh !important;
+  }
+  .DocSearch-Button {
+    width: 260px;
   }
 }
 
