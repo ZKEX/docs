@@ -16,6 +16,7 @@ const config = {
   organizationName: "ZKEX", // Usually your GitHub org/user name.
   projectName: "ZKEX", // Usually your repo name.
 
+  plugins: [require.resolve("docusaurus-lunr-search")],
   presets: [
     [
       "classic",
@@ -143,17 +144,6 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-      },
-      algolia: {
-        apiKey: "6b1a18be88692c3e0324585690151e87",
-        indexName: "YOUR_INDEX_NAME",
-        // Optional: see doc section below
-        contextualSearch: true,
-        // Optional: see doc section below
-        appId: "YJNNA7Z7MU",
-        // Optional: Algolia search parameters
-        searchParameters: {},
-        //... other Algolia params
       },
     }),
 };
