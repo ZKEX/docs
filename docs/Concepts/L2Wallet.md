@@ -20,12 +20,12 @@ There are currently two ways to withdraw assets from ZKEX’s L2 Wallet, with di
 
 Withdrawals incur both a fee, and gas fees from the destination L1 chain.
 
-## Regular Withdrawal
+### Regular Withdrawal
 
 A regular withdrawal from L2 Wallet takes around 20 minutes but at a relatively low cost, while remaining decentralized.
 
 Since the tokens being withdrawn might be from different networks with limited liquidity, there may be additional delays due to the inventory of some small volume tokens. This could result in the transaction taking longer as the matching engine looks for the requested tokens in different networks.
 
-## Fast Withdrawal
+### Fast Withdrawal
 
 ZKEX also offers a fast withdraw option, which allows users to withdraw assets from your L2 Wallet via a centralized solution - a broker. The broker will take a commission fee based on the required amount. This allows you to bypass the transaction time taken with a regular withdraw.
