@@ -39,13 +39,13 @@ A zero-knowledge rollup (ZK-rollup) is a way of using mathematics to verify the 
 
 The advantages of this method are that it enables higher scalability (and lower gas fees), fast finality, and a high level guarantee that the transaction has not been faked or tampered with.
 
-You can read more about ZK-Rollups in the <u>**[Security](https://zkex.com/docs/Security.html)**</u> section.
+You can read more about ZK-Rollups in the <u>**[Security](/Security)**</u> section.
 
 ### Order Book Matching Engine
 
 A central limit order book (CLOB) is essentially a meeting place for buyers and sellers to be matched together to fulfil their trades. Although it works in a similar way as a centralised order book exchange, ZKEX’s order book is decentralized and permissionless, meaning there is no middle party, and the matching and execution is automated.
 
-You can read more about order books in the <u>**[Trading](https://zkex.com/docs/Trading.html)**</u> section.
+You can read more about order books in the <u>**[Trading](/Trading)**</u> section.
 
 ## Issues With Decentralized Exchanges
 

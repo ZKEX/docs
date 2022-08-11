@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ## Networks
 
-We have successfully integrated the following blockchain networks, with more coming soon.
+We've successfully integrated the following blockchain networks, with more coming soon.
 
 ### EVM networks:
 
@@ -27,27 +27,14 @@ We have successfully integrated the following blockchain networks, with more com
 
 ## Stablecoins
 
-Stablecoins are a cryptocurrency pegged to a target value such as the US Dollar at a 1:1 ratio. We support three kinds of stablecoins: USDC, BUSD, and zkexUSD, which are deposited to the L2 wallet to enable trading.
+Stablecoins are a cryptocurrency pegged to a target value such as the US Dollar at a 1:1 ratio.
 
-### USDC
+Users can deposit any of the following fiat-backed stablecoins, which are merged to a unified 'USD' equivalent in a user's ZKEX wallet:
 
-USD Coin is a digital stablecoin that is pegged to the US dollar. Users can directly deposit USDC to ZKEX to trade.
+- USDC
+- BUSD
+- HUSD
+- USDP
+- TUSD
 
-### BUSD
-
-Binance USD is a digital stablecoin that is pegged to the US dollar. Users can directly deposit BUSD to ZKEX to trade.
-
-### zkexUSD
-
-zkexUSD is a stablecoin minted from collaterized stablecoins and LP tokens. Users can deposit supported collateralized assets for use on ZKEX, and earn extra yield in the process.
-
-Supported collaterals:
-
-1. **Fiat-backed stablecoin:**  
-   USDC, BUSD, HUSD, USDP, TUSD, GUSD.
-2. **Crypto-backed stablecoin:**  
-   USDT, DAI, LUSD, FEI, MIM, ALUSD.
-3. **Algorithmic stablecoin:**  
-   UST, FRAX.
-4. **Interest-bearing tokens, Curve LPs, and UNI V3 LPs of stablecoins**  
-   yUSDC, 3CRV.
+Since all deposited stablecoins are equivalent to USD, the number of trading pairs is minimized, making it simpler to trade.
