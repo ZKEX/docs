@@ -147,10 +147,9 @@ nav.theme-doc-breadcrumbs {
 }
 .markdown h3 {
   display: inline-block;
-  height: 20px;
-  background: #a0ee09;
+  /* height: 20px; */
   background: #3d3d3d;
-  padding-left: 10px;
+  padding: 10px;
   margin-left: 63px;
   /* padding-right: -10px; */
   border-left: 2px solid rgba(160, 238, 9, 1);
@@ -173,13 +172,13 @@ nav.theme-doc-breadcrumbs {
 }
 .markdown ul {
   overflow: hidden;
-  border-left: 4px solid rgba(160, 238, 9, 1);
-  border-radius: 4px;
+  border-left: 2px solid #a0ee09;
+  /* border-radius: 4px; */
   /* background: #222222; */
 
-  background: #25292e;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /* background: #25292e; */
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
   padding-right: 10px;
 }
 .pagination-nav {
