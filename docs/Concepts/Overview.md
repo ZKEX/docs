@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# 📔 Overview
+# Overview
 
 ## What is ZKEX?
 
-**ZKEX is a decentralized L2 multi-chain order book exchange (DEX), build on three ZK-rollups: zkLink, Starkware, and zkSync.**
+** ZKEX is a decentralized L2 multi-chain order book exchange (DEX), build on three ZK-rollups: zkLink, Starkware, and zkSync.**
 
 **Users will be able to trade assets from multiple chains with a similar experience as on Binance or Coinbase, but instead, ZKEX will be decentralized, trust minimized, and non-custodial, with transactions secured with zero-knowledge proofs.**
 
@@ -39,13 +39,13 @@ A zero-knowledge rollup (ZK-rollup) is a way of using mathematics to verify the 
 
 The advantages of this method are that it enables higher scalability (and lower gas fees), fast finality, and a high level guarantee that the transaction has not been faked or tampered with.
 
-You can read more about ZK-Rollups in the <u>**[Security](Security.md)**</u> section.
+You can read more about ZK-Rollups in the <u>**[Security](Security)**</u> section.
 
 ### Order Book Matching Engine
 
 A central limit order book (CLOB) is essentially a meeting place for buyers and sellers to be matched together to fulfil their trades. Although it works in a similar way as a centralised order book exchange, ZKEX’s order book is decentralized and permissionless, meaning there is no middle party, and the matching and execution is automated.
 
-You can read more about order books in the <u>**[Trading](Trading.md)**</u> section.
+You can read more about order books in the <u>**[Trading](Trading)**</u> section.
 
 ## Issues With Decentralized Exchanges
 
