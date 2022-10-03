@@ -45,7 +45,7 @@ const sidebars = {
       type: "category",
       label: "Guides",
       collapsed: false,
-      items: ["Guides/TestnetUserGuide"],
+      items: ["Guides/GetStarted"],
     },
     // {
     //   type: "doc",
