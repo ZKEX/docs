@@ -12,7 +12,7 @@ We've successfully integrated the following blockchain networks, with more comin
 
 - Ethereum
 - Avalanche
-- Binance Smart Chain
+- BNB Chain
 - Polygon
 
 ### Non-EVM networks:

@@ -6,8 +6,8 @@ sidebar_position: 5
 
 ## Trading Types
 
-- Limit Order
-- Market Order
+- Limit Order (available)
+- Market Order (available)
 - Stop Market
 - Stop Limit
 - Trailing Stop
@@ -16,4 +16,4 @@ sidebar_position: 5
 
 ## Trading Pairs
 
-TBC
+We plan to go live with a small number of pairs, with the potential of hundreds being eventually available.
