@@ -38,7 +38,6 @@ const sidebars = {
         "Concepts/Fees",
         "Concepts/Security",
         "Concepts/Tokenomics",
-        "Concepts/WhitePaper",
       ],
     },
     {
